@@ -19,13 +19,9 @@ const readline1 = require('readline-sync')
 
 ```javascript  
 let nameInput = readline1.question(`*ahem , what is your name anyways ? \n`) // User enters Name, i.e Dan
-``` 
 
-```javascript 
 let nameInput2 = nameInput.toUpperCase() // Changes Dan to DAN
-```
 
-```javascript 
 console.log(`${breaK} Right, right, I knew that. As I was saying.. \n 
 I'M HERE TO TELL YOU, PUNY LITTLE ${nameInput2} ,THAT I IN FACT CONTROL YOUR DESTINY! \n`)
 
