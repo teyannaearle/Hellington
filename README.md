@@ -1,5 +1,6 @@
 ### Text Based Adventure Game :computer: :crystal_ball:
 **Journey into a strange new world and prove that _a person's choices can trump fate_ in this text based adventure.**
+
 ![Gameplay Giphy](https://github.com/teyannaearle/Text-Based-Adventure-game/blob/main/HellingtonGiphy.gif?raw=true)
 
 ### Local Setup 
