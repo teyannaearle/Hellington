@@ -8,3 +8,28 @@
 2. Cd into directory: ```$ cd Text-Based-Adventure-Game```
 3. Install NPM: ```$ npm install```
 4. Run and attempt to beat fate! : ```$ node Hellington.js ``` 
+
+### Dependencies
+
+* __readlineSync__ Used to communicate with user via console
+
+```javascript 
+const readline1 = require('readline-sync') 
+``` 
+
+```javascript  
+let nameInput = readline1.question(`*ahem , what is your name anyways ? \n`) // User enters Name, i.e Dan
+``` 
+
+```javascript 
+let nameInput2 = nameInput.toUpperCase() // Changes Dan to DAN
+```
+
+```javascript 
+console.log(`${breaK} Right, right, I knew that. As I was saying.. \n 
+I'M HERE TO TELL YOU, PUNY LITTLE ${nameInput2} ,THAT I IN FACT CONTROL YOUR DESTINY! \n`)
+
+// Right, right, I knew that. As I was saying.. 
+// I'M HERE TO TELL YOU, PUNY LITTLE DAN ,THAT I IN FACT CONTROL YOUR DESTINY! 
+```
+
